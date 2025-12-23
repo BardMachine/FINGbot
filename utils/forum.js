@@ -32,9 +32,6 @@ async function checkForum(name, channel, client) {
         }
 
         if (lastSeenTitles[name] !== title) {
-            lastSeenTitles[name] = title;
-            saveSeenPosts();
-
             const fullLink = link.startsWith("http") ? link : new URL(link, url).href;
             const postRes = await fetch(fullLink);
             const postHtml = await postRes.text();
@@ -86,6 +83,13 @@ async function checkForum(name, channel, client) {
                     for (const chunk of chunks) {
                         await channel.send(">>> " + chunk);
                     }
+                }
+                // Update seen posts only after successfully sending the notification
+                try {
+                    lastSeenTitles[name] = title;
+                    saveSeenPosts();
+                } catch (e) {
+                    console.error('Error saving seen post title:', e);
                 }
             }
             else

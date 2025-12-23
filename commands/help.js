@@ -1,34 +1,38 @@
 module.exports = async (message) => {
-    const helpMessage = `
-# 📖 Comandos disponibles
+    const helpLines = [
+        "**📖 Comandos disponibles**",
+        "",
+        "- **`^examenes {CODIGO}`**: Muestra la fecha y hora del próximo examen de la materia.",
+        "  - Ej: `^examenes P3`",
+        "",
+        "- **`^parciales {CODIGO}`**: Muestra la fecha y hora del próximo parcial de la materia.",
+        "  - Ej: `^parciales P3`",
+        "",
+        "- **`^matricularse {CODIGO}`**: Guarda la materia en tu lista personal (no asigna roles). Solo acepta códigos existentes en `materias.json`.",
+        "  - Ej: `^matricularse P3`",
+        "",
+        "- **`^desmatricularse {CODIGO}`**: Elimina una materia de tu lista personal.",
+        "  - Ej: `^desmatricularse P3`",
+        "",
+        "- **`^calendario`**: Muestra un calendario compacto con los parciales de tus materias.",
+        "",
+        "- **`^novedades`**: Comprueba novedades del foro para el canal actual.",
+        "",
+        "- **`^p3lectura {N}`**: Envía el PDF de la semana (opcional N).",
+        "",
+        "---",
+        "**⚙️ Comandos de administrador**",
+        "",
+        "- **`^agregarMateria {CODIGO} {NOMBRE}`**: Crea o actualiza una materia en `materias.json` y crea el canal (código sin espacios).",
+        "  - Ej: `^agregarMateria p3 PROGRAMACION 3`",
+        "",
+        "- **`^agregarForo {CODIGO} {URL}`**: Asocia o actualiza el link al foro de EVA para la materia.",
+        "  - Ej: `^agregarForo P3 https://eva.fing.edu.uy/mod/forum/view.php?id=XXXXX`",
+        "",
+        "- **`^subirExamenes`** / **`^subirParciales`**: Adjunta un PDF al mensaje para actualizar los horarios.",
+        "",
+        "Pistas: Las materias válidas están en `materias.json`. Usa `^matricularse {CODIGO}` para agregarlas a tu lista personal y luego `^calendario` para ver los parciales."
+    ].join('\n');
 
-## 📅 **^examen {CODIGO}**
-Muestra la fecha y hora del próximo examen.
-> Ej: \`^examen P3\`
-
-## 🎓 **^matricularse {CODIGO}**
-Te asigna el rol de la materia para recibir avisos del foro.
-> Ej: \`^matricularse P3\`
-
-## 🧹 **^desmatricularse {CODIGO}**
-Remueve el rol de la materia.
-> Ej: \`^desmatricularse P3\`
-
-## 🆕 **^novedades**
-Consulta novedades del foro de EVA (usando el canal actual como referencia).
-
----
-
-## ⚙️ Comandos de administrador
-
-### ➕ **^agregarMateria {CODIGO} {NOMBRE}**
-Agrega una materia al sistema y crea su canal si no existe.
-> Ej: \`^agregarMateria P5 PROGRAMACIÓN 5\`
-
-### 🔗 **^agregarForo {CODIGO} {URL}**
-Asocia o actualiza el link al foro de EVA para la materia.
-> Ej: \`^agregarForo P3 https://eva.fing.edu.uy/mod/forum/view.php?id=XXXXX\`
-`;
-
-    message.reply(helpMessage);
+    message.reply(helpLines);
 };

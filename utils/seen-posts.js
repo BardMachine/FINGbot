@@ -8,7 +8,10 @@ function loadSeenPosts() {
     if (fs.existsSync(SEEN_FILE)) {
         try {
             const raw = fs.readFileSync(SEEN_FILE, 'utf-8');
-            lastSeenTitles = JSON.parse(raw);
+            const parsed = JSON.parse(raw);
+            // Mutate the existing object reference so other modules keep the same reference
+            Object.keys(lastSeenTitles).forEach(k => delete lastSeenTitles[k]);
+            Object.assign(lastSeenTitles, parsed);
         } catch (err) {
             console.error('❌ Error reading seen posts:', err);
         }

@@ -22,16 +22,11 @@ function saveUsuarios(usuarios) {
 
 module.exports = async (message, args) => {
     if (args.length === 0) {
-        message.reply("Uso: ^matricularse {CODIGO}\nEjemplo: ^matricularse P3");
+        message.reply("Uso: ^matricularse {CODIGO} [{CODIGO2} {CODIGO3} ...]\nEjemplo: ^matricularse P3 P5 GAL1");
         return;
     }
 
-    const codigo = args[0].toUpperCase();
-    if (!materias[codigo]) {
-        message.reply("Esta materia no existe watafac");
-        return;
-    }
-
+    const codigos = args.map(c => c.toUpperCase());
     const usuarios = loadUsuarios();
     const userId = message.author.id;
 
@@ -43,13 +38,35 @@ module.exports = async (message, args) => {
         };
     }
 
-    if (usuarios[userId].materias.includes(codigo)) {
-        message.reply(`Ya estás matriculado en **${codigo}**`);
-        return;
+    const results = [];
+    const notFound = [];
+    const alreadyEnrolled = [];
+
+    for (const codigo of codigos) {
+        if (!materias[codigo]) {
+            notFound.push(codigo);
+        } else if (usuarios[userId].materias.includes(codigo)) {
+            alreadyEnrolled.push(codigo);
+        } else {
+            usuarios[userId].materias.push(codigo);
+            results.push(codigo);
+        }
     }
 
-    usuarios[userId].materias.push(codigo);
-    saveUsuarios(usuarios);
+    if (results.length > 0) {
+        saveUsuarios(usuarios);
+    }
 
-    message.reply(`✅ Matriculado en **${codigo}**`);
+    let reply = '';
+    if (results.length > 0) {
+        reply += `✅ Matriculado en: **${results.join(', ')}**\n`;
+    }
+    if (alreadyEnrolled.length > 0) {
+        reply += `⚠️ Ya estabas matriculado en: **${alreadyEnrolled.join(', ')}**\n`;
+    }
+    if (notFound.length > 0) {
+        reply += `❌ No existen: **${notFound.join(', ')}**`;
+    }
+
+    message.reply(reply || 'No se realizaron cambios.');
 };

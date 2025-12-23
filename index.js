@@ -25,8 +25,10 @@ const commandFiles = fs.readdirSync(path.join(__dirname, 'commands'))
 for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
     const commandName = file.split('.')[0];
-    commands.set(commandName, command);
+    // store commands by lowercase name so lookup is case-insensitive
+    commands.set(commandName.toLowerCase(), command);
 }
+console.log('Loaded commands:', Array.from(commands.keys()).join(', '));
 
 // Set up cron job for forum checks
 cron.schedule("0 12,18,23 * * *", () => {
@@ -51,7 +53,7 @@ client.on('messageCreate', async (message) => {
 
     // Special handling for upload commands that share the same handler
     if (commandName === 'subirexamenes' || commandName === 'subirparciales') {
-        const handler = commands.get('subirArchivos');
+        const handler = commands.get('subirarchivos');
         if (handler) {
             await handler(message, [commandName === 'subirexamenes' ? 'examenes' : 'parciales'], client);
         }
@@ -59,8 +61,10 @@ client.on('messageCreate', async (message) => {
     }
 
     // Execute command if it exists
+    console.log('Invoked command:', commandName);
     const command = commands.get(commandName);
     if (command) {
+        console.log(commandName);
         try {
             await command(message, args);
         } catch (error) {

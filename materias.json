@@ -66,5 +66,21 @@
   "ECONOMIA": [
     "ECONOMÍA",
     "https://eva.fing.edu.uy/mod/forum/view.php?id=175957"
+  ],
+  "SIST-OP": [
+    "SISTEMAS OPERATIVOS",
+    ""
+  ],
+  "TEOLENG": [
+    "TEORIA DE LENGUAJES",
+    ""
+  ],
+  "AGPI": [
+    "ADMINISTRACIÓN GENERAL PARA INGENIEROS",
+    ""
+  ],
+  "IIO": [
+    "INTRODUCCIÓN A LA INVESTIGACIÓN DE OPERACIONES",
+    ""
   ]
 }

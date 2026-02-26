@@ -25,6 +25,13 @@ module.exports = async (message) => {
         message.reply("No estás matriculado en ninguna materia. Usa ^matricularse {CODIGO} para agregar materias.");
         return;
     }
-    const userMaterias = usuarios[userId].materias;
+    var response = "Tus materias matriculadas son:\n";
+    usuarios[userId].materias.forEach(codigo => {
+        const materia = materias.find(m => m.codigo === codigo);
+        if (materia) {
+            response += `- ${materia.nombre} (${materia.codigo})\n`;
+        }
+    });
+    message.reply(response);
     
 }

@@ -13,7 +13,7 @@
   ],
   "P4": [
     "PROGRAMACION 4",
-    "https://eva.fing.edu.uy/mod/forum/view.php?id=219312"
+    ""
   ],
   "CDIV": [
     "CALCULO DIF. E INTEGRAL EN UNA VARIABLE",
@@ -33,7 +33,7 @@
   ],
   "GAL2": [
     "GEOMETRIA Y ALGEBRA LINEAL 2",
-    "https://eva.fing.edu.uy/mod/forum/view.php?id=128227"
+    ""
   ],
   "MD1": [
     "MATEMATICA DISCRETA 1",
@@ -49,15 +49,15 @@
   ],
   "PYE": [
     "PROBABILIDAD Y ESTADISTICA",
-    "https://eva.fing.edu.uy/mod/forum/view.php?id=116411"
+    ""
   ],
   "ARQCOMP": [
     "ARQUITECTURA DE COMPUTADORAS",
-    "https://eva.fing.edu.uy/mod/forum/view.php?id=7242"
+    ""
   ],
   "METNUM": [
     "METODOS NUMERICOS",
-    "https://eva.fing.edu.uy/mod/forum/view.php?id=4444"
+    ""
   ],
   "TUTORIAS": [
     "TUTORIAS ENTRE PARES",
@@ -65,22 +65,26 @@
   ],
   "ECONOMIA": [
     "ECONOMÍA",
-    "https://eva.fing.edu.uy/mod/forum/view.php?id=175957"
+    ""
   ],
-  "SIST-OP": [
+  "SISTOP": [
     "SISTEMAS OPERATIVOS",
     ""
   ],
   "TEOLENG": [
     "TEORIA DE LENGUAJES",
-    ""
+    "https://eva.fing.edu.uy/mod/forum/view.php?id=686"
   ],
   "AGPI": [
-    "ADMINISTRACIÓN GENERAL PARA INGENIEROS",
+    "ADMINISTRACION GENERAL PARA INGENIE",
     ""
   ],
   "IIO": [
-    "INTRODUCCIÓN A LA INVESTIGACIÓN DE OPERACIONES",
+    "INT. A LA INVESTIGACION DE OPERACIONE.",
+    ""
+  ],
+  "CTS": [
+    "CIENCIA TECNOLOGÍA Y SOCIEDAD",
     ""
   ]
 }

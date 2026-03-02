@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { materias, fechasParciales } = require('../utils/data');
+const { debug } = require('console');
 
 const USUARIOS_FILE = path.join(__dirname, '..', 'usuarios.json');
 
@@ -17,7 +18,7 @@ function loadUsuarios() {
 }
 
 
-module.exports = async (message) => {
+module.exports = async (message, args) => {
     const usuarios = loadUsuarios();
     const userId = message.author.id;
 
@@ -25,13 +26,22 @@ module.exports = async (message) => {
         message.reply("No estás matriculado en ninguna materia. Usa ^matricularse {CODIGO} para agregar materias.");
         return;
     }
-    var response = "Tus materias matriculadas son:\n";
-    usuarios[userId].materias.forEach(codigo => {
-        const materia = materias.find(m => m.codigo === codigo);
-        if (materia) {
-            response += `- ${materia.nombre} (${materia.codigo})\n`;
-        }
-    });
+    var response = "**📚 Tus materias matriculadas:**\n\n";
+
+usuarios[userId].materias.forEach(codigo => {
+    const materia = materias[codigo];
+    if (materia) {
+        if (materia[1]) {
+            var url = materia[1].toString();
+            if(!materia[1].toString().startsWith("http")){
+                url = "https://" + materia[1].toString();
+            }
+    response += `• **[${materia[0]}](${url})**\n\`${codigo}\`\n\n`;
+} else {
+    response += `• **${materia[0]}**\n\`${codigo}\`\n\n`;
+}
+    }
+});
     message.reply(response);
     
 }

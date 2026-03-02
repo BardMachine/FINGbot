@@ -1,0 +1,1017 @@
+{
+  "PROBABILIDAD Y ESTADISTICA": [
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 570,
+          "end": 660
+        },
+        {
+          "day": 3,
+          "start": 570,
+          "end": 660
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 2",
+      "classes": [
+        {
+          "day": 1,
+          "start": 660,
+          "end": 750
+        },
+        {
+          "day": 3,
+          "start": 660,
+          "end": 750
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 3",
+      "classes": [
+        {
+          "day": 1,
+          "start": 870,
+          "end": 960
+        },
+        {
+          "day": 3,
+          "start": 870,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 4",
+      "classes": [
+        {
+          "day": 2,
+          "start": 780,
+          "end": 870
+        },
+        {
+          "day": 4,
+          "start": 780,
+          "end": 870
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 5",
+      "classes": [
+        {
+          "day": 0,
+          "start": 870,
+          "end": 960
+        },
+        {
+          "day": 2,
+          "start": 870,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 6",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1170,
+          "end": 1260
+        },
+        {
+          "day": 3,
+          "start": 1170,
+          "end": 1260
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 7",
+      "classes": [
+        {
+          "day": 2,
+          "start": 1080,
+          "end": 1170
+        },
+        {
+          "day": 4,
+          "start": 1080,
+          "end": 1170
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 780,
+          "end": 870
+        },
+        {
+          "day": 3,
+          "start": 780,
+          "end": 870
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 2",
+      "classes": [
+        {
+          "day": 1,
+          "start": 480,
+          "end": 570
+        },
+        {
+          "day": 3,
+          "start": 480,
+          "end": 570
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 3",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1080,
+          "end": 1170
+        },
+        {
+          "day": 3,
+          "start": 1080,
+          "end": 1170
+        }
+      ]
+    }
+  ],
+  "MATEMATICA DISCRETA 2": [
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 570,
+          "end": 660
+        },
+        {
+          "day": 3,
+          "start": 570,
+          "end": 660
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 2",
+      "classes": [
+        {
+          "day": 0,
+          "start": 870,
+          "end": 960
+        },
+        {
+          "day": 2,
+          "start": 870,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 3",
+      "classes": [
+        {
+          "day": 1,
+          "start": 960,
+          "end": 1050
+        },
+        {
+          "day": 3,
+          "start": 960,
+          "end": 1050
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 4",
+      "classes": [
+        {
+          "day": 0,
+          "start": 660,
+          "end": 750
+        },
+        {
+          "day": 2,
+          "start": 660,
+          "end": 750
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 5",
+      "classes": [
+        {
+          "day": 2,
+          "start": 570,
+          "end": 660
+        },
+        {
+          "day": 4,
+          "start": 570,
+          "end": 660
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 6",
+      "classes": [
+        {
+          "day": 0,
+          "start": 1260,
+          "end": 1350
+        },
+        {
+          "day": 2,
+          "start": 1260,
+          "end": 1350
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 480,
+          "end": 570
+        },
+        {
+          "day": 3,
+          "start": 480,
+          "end": 570
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 2",
+      "classes": [
+        {
+          "day": 0,
+          "start": 960,
+          "end": 1050
+        },
+        {
+          "day": 2,
+          "start": 960,
+          "end": 1050
+        }
+      ]
+    }
+  ],
+  "LOGICA": [
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1050,
+          "end": 1170
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 2,
+          "start": 480,
+          "end": 600
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 2",
+      "classes": [
+        {
+          "day": 3,
+          "start": 600,
+          "end": 720
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 3",
+      "classes": [
+        {
+          "day": 3,
+          "start": 960,
+          "end": 1080
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 4",
+      "classes": [
+        {
+          "day": 4,
+          "start": 600,
+          "end": 720
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 5",
+      "classes": [
+        {
+          "day": 4,
+          "start": 840,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 6",
+      "classes": [
+        {
+          "day": 2,
+          "start": 1140,
+          "end": 1260
+        }
+      ]
+    }
+  ],
+  "GEOMETRIA Y ALGEBRA LINEAL 1": [
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 570,
+          "end": 660
+        },
+        {
+          "day": 3,
+          "start": 570,
+          "end": 660
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 10",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1170,
+          "end": 1260
+        },
+        {
+          "day": 3,
+          "start": 1170,
+          "end": 1260
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 11",
+      "classes": [
+        {
+          "day": 1,
+          "start": 480,
+          "end": 570
+        },
+        {
+          "day": 3,
+          "start": 480,
+          "end": 570
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 12",
+      "classes": [
+        {
+          "day": 0,
+          "start": 570,
+          "end": 660
+        },
+        {
+          "day": 2,
+          "start": 570,
+          "end": 660
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 2",
+      "classes": [
+        {
+          "day": 0,
+          "start": 570,
+          "end": 660
+        },
+        {
+          "day": 2,
+          "start": 570,
+          "end": 660
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 3",
+      "classes": [
+        {
+          "day": 1,
+          "start": 660,
+          "end": 750
+        },
+        {
+          "day": 3,
+          "start": 660,
+          "end": 750
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 4",
+      "classes": [
+        {
+          "day": 1,
+          "start": 870,
+          "end": 960
+        },
+        {
+          "day": 3,
+          "start": 870,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 5",
+      "classes": [
+        {
+          "day": 2,
+          "start": 780,
+          "end": 870
+        },
+        {
+          "day": 4,
+          "start": 780,
+          "end": 870
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 6",
+      "classes": [
+        {
+          "day": 0,
+          "start": 480,
+          "end": 570
+        },
+        {
+          "day": 2,
+          "start": 480,
+          "end": 570
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 7",
+      "classes": [
+        {
+          "day": 0,
+          "start": 960,
+          "end": 1050
+        },
+        {
+          "day": 2,
+          "start": 960,
+          "end": 1050
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 8",
+      "classes": [
+        {
+          "day": 2,
+          "start": 870,
+          "end": 960
+        },
+        {
+          "day": 4,
+          "start": 870,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 9",
+      "classes": [
+        {
+          "day": 1,
+          "start": 780,
+          "end": 870
+        },
+        {
+          "day": 3,
+          "start": 780,
+          "end": 870
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 0,
+          "start": 660,
+          "end": 750
+        },
+        {
+          "day": 2,
+          "start": 660,
+          "end": 750
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 2",
+      "classes": [
+        {
+          "day": 1,
+          "start": 780,
+          "end": 870
+        },
+        {
+          "day": 3,
+          "start": 780,
+          "end": 870
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 3",
+      "classes": [
+        {
+          "day": 1,
+          "start": 480,
+          "end": 570
+        },
+        {
+          "day": 3,
+          "start": 480,
+          "end": 570
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 4",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1080,
+          "end": 1170
+        },
+        {
+          "day": 3,
+          "start": 1080,
+          "end": 1170
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 570,
+          "end": 660
+        },
+        {
+          "day": 3,
+          "start": 570,
+          "end": 660
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 2",
+      "classes": [
+        {
+          "day": 1,
+          "start": 660,
+          "end": 750
+        },
+        {
+          "day": 3,
+          "start": 660,
+          "end": 750
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 3",
+      "classes": [
+        {
+          "day": 1,
+          "start": 870,
+          "end": 960
+        },
+        {
+          "day": 3,
+          "start": 870,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 4",
+      "classes": [
+        {
+          "day": 2,
+          "start": 780,
+          "end": 870
+        },
+        {
+          "day": 4,
+          "start": 780,
+          "end": 870
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 5",
+      "classes": [
+        {
+          "day": 0,
+          "start": 480,
+          "end": 570
+        },
+        {
+          "day": 2,
+          "start": 480,
+          "end": 570
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 6",
+      "classes": [
+        {
+          "day": 0,
+          "start": 960,
+          "end": 1050
+        },
+        {
+          "day": 2,
+          "start": 960,
+          "end": 1050
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 7",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1170,
+          "end": 1260
+        },
+        {
+          "day": 3,
+          "start": 1170,
+          "end": 1260
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 780,
+          "end": 870
+        },
+        {
+          "day": 3,
+          "start": 780,
+          "end": 870
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 2",
+      "classes": [
+        {
+          "day": 1,
+          "start": 480,
+          "end": 570
+        },
+        {
+          "day": 3,
+          "start": 480,
+          "end": 570
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 3",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1080,
+          "end": 1170
+        },
+        {
+          "day": 3,
+          "start": 1080,
+          "end": 1170
+        }
+      ]
+    }
+  ],
+  "PROGRAMACION 2": [
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1080,
+          "end": 1200
+        },
+        {
+          "day": 3,
+          "start": 1080,
+          "end": 1200
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 2",
+      "classes": [
+        {
+          "day": 1,
+          "start": 600,
+          "end": 720
+        },
+        {
+          "day": 3,
+          "start": 600,
+          "end": 720
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 3",
+      "classes": [
+        {
+          "day": 1,
+          "start": 840,
+          "end": 960
+        },
+        {
+          "day": 3,
+          "start": 840,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 4",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1080,
+          "end": 1200
+        },
+        {
+          "day": 3,
+          "start": 1080,
+          "end": 1200
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 0,
+          "start": 750,
+          "end": 870
+        }
+      ]
+    }
+  ],
+  "PROGRAMACION 4": [
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 0,
+          "start": 1200,
+          "end": 1320
+        },
+        {
+          "day": 4,
+          "start": 1080,
+          "end": 1200
+        },
+        {
+          "day": 2,
+          "start": 600,
+          "end": 720
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 2",
+      "classes": [
+        {
+          "day": 2,
+          "start": 780,
+          "end": 900
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 3",
+      "classes": [
+        {
+          "day": 2,
+          "start": 480,
+          "end": 540
+        }
+      ]
+    }
+  ],
+  "TEORIA DE LENGUAJES": [
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1080,
+          "end": 1170
+        },
+        {
+          "day": 3,
+          "start": 1080,
+          "end": 1170
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 0,
+          "start": 1080,
+          "end": 1200
+        },
+        {
+          "day": 2,
+          "start": 1080,
+          "end": 1200
+        }
+      ]
+    }
+  ],
+  "SISTEMAS OPERATIVOS": [
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 480,
+          "end": 600
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 2",
+      "classes": [
+        {
+          "day": 4,
+          "start": 1200,
+          "end": 1320
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 3",
+      "classes": [
+        {
+          "day": 2,
+          "start": 960,
+          "end": 1080
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 1,
+          "start": 1170,
+          "end": 1350
+        },
+        {
+          "day": 3,
+          "start": 1170,
+          "end": 1350
+        }
+      ]
+    }
+  ],
+  "INT. A LA INVESTIGACION DE OPERACIONE.": [
+    {
+      "group": "PRACTICO GRUPO 1",
+      "classes": [
+        {
+          "day": 2,
+          "start": 1050,
+          "end": 1170
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 2",
+      "classes": [
+        {
+          "day": 4,
+          "start": 1170,
+          "end": 1290
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 3",
+      "classes": [
+        {
+          "day": 3,
+          "start": 840,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 4",
+      "classes": [
+        {
+          "day": 3,
+          "start": 600,
+          "end": 720
+        }
+      ]
+    },
+    {
+      "group": "PRACTICO GRUPO 5",
+      "classes": [
+        {
+          "day": 4,
+          "start": 1080,
+          "end": 1200
+        }
+      ]
+    },
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 0,
+          "start": 840,
+          "end": 960
+        },
+        {
+          "day": 2,
+          "start": 840,
+          "end": 960
+        }
+      ]
+    }
+  ],
+  "ADMINISTRACION GENERAL PARA INGENIE": [
+    {
+      "group": "TEORICO GRUPO 1",
+      "classes": [
+        {
+          "day": 0,
+          "start": 1140,
+          "end": 1260
+        },
+        {
+          "day": 2,
+          "start": 1140,
+          "end": 1260
+        }
+      ]
+    }
+  ]
+}

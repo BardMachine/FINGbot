@@ -6,7 +6,9 @@
       "IIO",
       "AGPI",
       "TEOLENG",
-      "SIST-OP"
+      "SIST-OP",
+      "CTS",
+      "MD2"
     ]
   }
 }

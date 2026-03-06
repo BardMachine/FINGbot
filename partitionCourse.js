@@ -5,59 +5,49 @@ import { PDFDocument } from "pdf-lib";
 async function main() {
   const inputPdfPath = "./course.pdf";
   const weeksJsonPath = "./weeks.json";
-  const chaptersJsonPath = "./chapters.json";
   const outputDir = "./weeks";
 
   await fs.ensureDir(outputDir);
 
   const weeks = JSON.parse(await fs.readFile(weeksJsonPath, "utf8"));
-  const chapters = JSON.parse(await fs.readFile(chaptersJsonPath, "utf8"));
   const pdfBytes = await fs.readFile(inputPdfPath);
   const masterPdf = await PDFDocument.load(pdfBytes);
 
-  for (const [weekName, weekData] of Object.entries(weeks)) {
-    const { start, end, sections } = weekData;
+  for (const [weekName, range] of Object.entries(weeks)) {
+    const { start, end } = range;
+
     console.log(`\n📚 Processing ${weekName} (${start} → ${end})`);
-    if (!Array.isArray(sections) || sections.length === 0) {
-      console.warn(`⚠️ No sections listed for ${weekName}, skipping...`);
+
+    if (typeof start !== "number" || typeof end !== "number") {
+      console.warn(`⚠️ Invalid range for ${weekName}, skipping...`);
+      continue;
+    }
+
+    if (end < start) {
+      console.warn(`⚠️ End before start for ${weekName}, skipping...`);
       continue;
     }
 
     const newPdf = await PDFDocument.create();
-    let totalPages = 0;
 
-    for (const chapter of sections) {
-      const info = chapters[chapter];
-      if (!info) {
-        console.warn(`⚠️ Missing chapter mapping for "${chapter}"`);
-        continue;
-      }
-      const { start: cStart, end: cEnd } = info;
-      const pageIndices = Array.from(
-        { length: cEnd - cStart + 1 },
-        (_, i) => cStart - 1 + i
-      );
+    const pageIndices = Array.from(
+      { length: end - start + 1 },
+      (_, i) => start - 1 + i
+    );
 
-      try {
-        const pagesToCopy = await newPdf.copyPages(masterPdf, pageIndices);
-        pagesToCopy.forEach((p) => newPdf.addPage(p));
-        totalPages += pagesToCopy.length;
-        console.log(`   ➕ Added ${chapter} (${cStart}-${cEnd})`);
-      } catch (err) {
-        console.error(`❌ Error copying pages for ${chapter}:`, err.message);
-      }
+    try {
+      const pagesToCopy = await newPdf.copyPages(masterPdf, pageIndices);
+      pagesToCopy.forEach((p) => newPdf.addPage(p));
+
+      const newPdfBytes = await newPdf.save();
+      const outputFile = `${outputDir}/${weekName}.pdf`;
+
+      await fs.writeFile(outputFile, newPdfBytes);
+
+      console.log(`✅ Saved ${outputFile} (${pagesToCopy.length} pages)`);
+    } catch (err) {
+      console.error(`❌ Error processing ${weekName}:`, err.message);
     }
-
-    if (totalPages === 0) {
-      console.warn(`⚠️ No valid pages copied for ${weekName}, skipping save.`);
-      continue;
-    }
-
-    const pdfBytes = await newPdf.save();
-    const outputFile = `${outputDir}/${weekName}.pdf`;
-    await fs.writeFile(outputFile, pdfBytes);
-
-    console.log(`✅ Saved ${outputFile} (${totalPages} pages)`);
   }
 
   console.log("\n🎉 All weeks processed successfully!");

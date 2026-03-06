@@ -1,3 +1,4 @@
 /node_modules/*
 /.env
 /seen_posts.json
+/materias.json

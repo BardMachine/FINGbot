@@ -1,442 +1,427 @@
 [
   {
-    "subject": "Comportamiento Mecánico de Materiales 2",
-    "date": "21/11/2025",
-    "time": "08:00"
-  },
-  {
-    "subject": "Int. a la Ingeniería Bioquímica",
-    "date": "21/11/2025",
-    "time": "08:00"
-  },
-  {
     "subject": "Geometría y Álgebra Lineal 2",
-    "date": "21/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Fund. de Aprendizaje Automático y Rec. De Patrones",
-    "date": "21/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Int. a la Mecánica de los Fluidos (TEC)",
-    "date": "21/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Int. a las Ecuaciones Diferenciales",
-    "date": "21/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Refrigeración Industrial (TEC)",
-    "date": "21/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Geometría y Álgebra Lineal 1",
-    "date": "22/11/2025",
+    "date": "25/04/2025",
     "time": "09:00"
   },
   {
-    "subject": "Probabilidad y Estadística",
-    "date": "22/11/2025",
+    "subject": "Antenas y Propagación",
+    "date": "25/04/2025",
+    "time": "09:00"
+  },
+  {
+    "subject": "Introducción a la Ciencia de Materiales",
+    "date": "25/04/2025",
+    "time": "09:00"
+  },
+  {
+    "subject": "Fundamentos de Ingeniería y Salud Ambiental",
+    "date": "25/04/2025",
+    "time": "09:00"
+  },
+  {
+    "subject": "Materiales y Ensayos",
+    "date": "25/04/2025",
     "time": "14:00"
   },
   {
-    "subject": "Electrónica Avanzada 1",
-    "date": "24/11/2025",
+    "subject": "Tecnologías y Servicios Industriales 1",
+    "date": "25/04/2025",
+    "time": "14:00"
+  },
+  {
+    "subject": "Tratamiento y Valorización de Aguas Residuales",
+    "date": "25/04/2025",
+    "time": "14:00"
+  },
+  {
+    "subject": "Transferencia de Calor 2",
+    "date": "25/04/2025",
+    "time": "14:00"
+  },
+  {
+    "subject": "Cálculo Vectorial",
+    "date": "27/04/2025",
     "time": "08:00"
   },
   {
-    "subject": "Int. al Procesamiento de Lenguaje Natural",
-    "date": "24/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Int. a la Ingeniería Sanitaria",
-    "date": "24/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Fluidodinámica",
-    "date": "24/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Redes de Datos 1",
-    "date": "24/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Metalurgia Física",
-    "date": "24/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Metalurgia Física  (TEC)",
-    "date": "24/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Estudio del Trabajo (TEC)",
-    "date": "24/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Generadores de Vapor (TEC)",
-    "date": "24/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Física 2",
-    "date": "25/11/2025",
+    "subject": "Fenómenos de Transporte en Ing. de Procesos",
+    "date": "27/04/2025",
     "time": "08:00"
   },
   {
-    "subject": "Matemática Discreta 1",
-    "date": "25/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Ingeniería de las Reacciones Químicas 2",
-    "date": "25/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Diseño Lógico",
-    "date": "25/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Arquitectura de Computadoras",
-    "date": "25/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Introducción a la Ciencia de los Materiales (TEC)",
-    "date": "25/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Física 1 (TEC)",
-    "date": "25/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Int. a la Electrotecnia  (TEC)",
-    "date": "25/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Física Térmica",
-    "date": "26/11/2025",
+    "subject": "Ingeniería Bioquímica",
+    "date": "27/04/2025",
     "time": "08:00"
   },
   {
-    "subject": "Señales Aleatorias y Modulación",
-    "date": "26/11/2025",
-    "time": "08:00"
-  },
-  {
-    "subject": "Física 1",
-    "date": "26/11/2025",
+    "subject": "Geometría y Álgebra Lineal 1",
+    "date": "27/04/2025",
     "time": "13:00"
   },
   {
-    "subject": "Resistencia de Materiales 1",
-    "date": "26/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Diseño de Sistemas Médicos Implantables Activos",
-    "date": "26/11/2025",
+    "subject": "Hormigón Estructural 1",
+    "date": "27/04/2025",
     "time": "18:00"
   },
   {
-    "subject": "Redes de Computadoras",
-    "date": "26/11/2025",
+    "subject": "Estructuras de Acero",
+    "date": "27/04/2025",
     "time": "18:00"
   },
   {
-    "subject": "Teoría de Restricciones",
-    "date": "26/11/2025",
+    "subject": "Electrotécnica",
+    "date": "27/04/2025",
     "time": "18:00"
   },
   {
-    "subject": "Elementos de Máquinas (TEC)",
-    "date": "26/11/2025",
+    "subject": "Teoría de Lenguajes",
+    "date": "27/04/2025",
     "time": "18:00"
   },
   {
-    "subject": "Matemática Discreta 2",
-    "date": "27/11/2025",
-    "time": "08:00"
-  },
-  {
-    "subject": "Generadores de Vapor",
-    "date": "27/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Dinámica de Máquinas y Vibraciones",
-    "date": "27/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Dinámica y Control de Procesos",
-    "date": "27/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Higiene y Serv. De Plantas Proc. de Alimentos",
-    "date": "27/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Mecánica Newtoniana",
-    "date": "27/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Int. a la Ingeniería de Procesos",
-    "date": "27/11/2025",
+    "subject": "Comportamiento Mecánico de Materiales  (TEC)",
+    "date": "27/04/2025",
     "time": "18:00"
   },
   {
-    "subject": "Electrotécnica II",
-    "date": "27/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Resistencia de Materiales 2",
-    "date": "27/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Seguridad Industrial (TEC)",
-    "date": "27/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Proyecto de Inversión (TEC)",
-    "date": "27/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Int. al Transporte",
-    "date": "28/11/2025",
-    "time": "08:00"
-  },
-  {
-    "subject": "Cálculo Dif. e Int. en Varias Variables",
-    "date": "28/11/2025",
-    "time": "08:00"
-  },
-  {
-    "subject": "Programación 3",
-    "date": "28/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Programación Funcional",
-    "date": "28/11/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Costos para Ingeniería",
-    "date": "28/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Transferencia de Calor y Masa 1",
-    "date": "28/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Máquinas Eléctricas",
-    "date": "28/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Ingeniería Clínica",
-    "date": "28/11/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Costos para Ingeniería (TEC)",
-    "date": "28/11/2025",
+    "subject": "Instrumentación y Control (TEC)",
+    "date": "27/04/2025",
     "time": "18:00"
   },
   {
     "subject": "Matemática Inicial",
-    "date": "29/11/2025",
-    "time": "09:00"
+    "date": "28/04/2025",
+    "time": "08:00"
   },
   {
-    "subject": "Cálculo Vectorial",
-    "date": "29/11/2025",
-    "time": "09:00"
+    "subject": "Int. a la Física Moderna",
+    "date": "28/04/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Ingeniería de las Reacciones Químicas 1",
+    "date": "28/04/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Comportamiento Mecánico de Materiales 1",
+    "date": "28/04/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Lógica",
+    "date": "28/04/2025",
+    "time": "13:00"
+  },
+  {
+    "subject": "Redes de Datos 2",
+    "date": "28/04/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Electrónica de Potencia",
+    "date": "28/04/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Elasticidad",
+    "date": "28/04/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Int. a la Soldadura",
+    "date": "28/04/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Energía 2 - Gen. Energ. Plantas Vapor y Gas",
+    "date": "28/04/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Elementos de Gestión Logística",
+    "date": "28/04/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Introducción a la Ciencia de los Materiales (TEC)",
+    "date": "28/04/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Fisica 1 (TEC)",
+    "date": "28/04/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Tranferencia de Calor  (TEC)",
+    "date": "28/04/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Cálculo Dif. e Int. en Varias Variables",
+    "date": "29/04/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Tecnología del Hormigón",
+    "date": "29/04/2025",
+    "time": "08:00"
   },
   {
     "subject": "Cálculo Dif. e Int. en Una Variable",
-    "date": "29/11/2025",
-    "time": "14:00"
-  },
-  {
-    "subject": "Métodos Numéricos",
-    "date": "01/12/2025",
-    "time": "08:00"
-  },
-  {
-    "subject": "Teoría de Circuitos",
-    "date": "01/12/2025",
+    "date": "29/04/2025",
     "time": "13:00"
   },
   {
-    "subject": "Geología de Ingeniería",
-    "date": "01/12/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Transferencia de Calor 1",
-    "date": "01/12/2025",
+    "subject": "Probabilidad y Estadística",
+    "date": "29/04/2025",
     "time": "18:00"
   },
   {
-    "subject": "Sistemas Oleohidráulicos y Neumáticos",
-    "date": "01/12/2025",
+    "subject": "Taller Introductorio de Ingeniería de Software",
+    "date": "29/04/2025",
     "time": "18:00"
   },
   {
-    "subject": "Tiempos y Métodos",
-    "date": "01/12/2025",
+    "subject": "Int. al Control Industrial",
+    "date": "29/04/2025",
     "time": "18:00"
   },
   {
-    "subject": "Mecánica Aplicada",
-    "date": "01/12/2025",
+    "subject": "Fisica 2 (TEC)",
+    "date": "29/04/2025",
     "time": "18:00"
   },
   {
-    "subject": "Ingeniería Biomédica",
-    "date": "01/12/2025",
+    "subject": "Hidráulica y Neumática (TEC)",
+    "date": "29/04/2025",
     "time": "18:00"
-  },
-  {
-    "subject": "Ingles Técnico (TEC)",
-    "date": "01/12/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Int. a la Termodinámica (TEC)",
-    "date": "01/12/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Programación 1",
-    "date": "02/12/2025",
-    "time": "08:00"
-  },
-  {
-    "subject": "Computación 1",
-    "date": "02/12/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Fundamentos de Bases de Datos",
-    "date": "02/12/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Met. Comput. Aplic. Al Cálculo Estructural",
-    "date": "02/12/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Fundamentos de la Producción de Celulosa y Papel",
-    "date": "02/12/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Gestión de Mantenimiento (TEC)",
-    "date": "02/12/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Economía",
-    "date": "03/12/2025",
-    "time": "08:00"
   },
   {
     "subject": "Programación 2",
-    "date": "03/12/2025",
+    "date": "30/04/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Subestaciones en Media Tensión",
+    "date": "30/04/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Electrotécnica I",
+    "date": "30/04/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Int. a la Investigación de Operaciones",
+    "date": "30/04/2025",
     "time": "13:00"
   },
   {
-    "subject": "Electromagnetismo",
-    "date": "03/12/2025",
+    "subject": "Elementos de Máquinas",
+    "date": "30/04/2025",
+    "time": "13:00"
+  },
+  {
+    "subject": "Energía Aplicada a Industria",
+    "date": "30/04/2025",
+    "time": "13:00"
+  },
+  {
+    "subject": "Int. a la Combustión (TEC)",
+    "date": "30/04/2025",
+    "time": "13:00"
+  },
+  {
+    "subject": "Principios de Química General",
+    "date": "02/05/2025",
+    "time": "09:00"
+  },
+  {
+    "subject": "Medidas Eléctricas",
+    "date": "02/05/2025",
+    "time": "09:00"
+  },
+  {
+    "subject": "Mecánica Estructural",
+    "date": "02/05/2025",
+    "time": "09:00"
+  },
+  {
+    "subject": "Energía 1 - Combustión",
+    "date": "02/05/2025",
+    "time": "09:00"
+  },
+  {
+    "subject": "Programación 1",
+    "date": "02/05/2025",
+    "time": "14:00"
+  },
+  {
+    "subject": "Física 3",
+    "date": "04/05/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Sistemas Operativos",
+    "date": "04/05/2025",
+    "time": "13:00"
+  },
+  {
+    "subject": "Ingles Técnico (TEC)",
+    "date": "04/05/2025",
+    "time": "16:00"
+  },
+  {
+    "subject": "Taller de Datos Espac. y Sist. de Inf. Geo.",
+    "date": "04/05/2025",
+    "time": "17:00"
+  },
+  {
+    "subject": "Patología de las Estructuras",
+    "date": "04/05/2025",
     "time": "18:00"
   },
   {
-    "subject": "Mecánica de los Fluidos",
-    "date": "03/12/2025",
+    "subject": "Instrumentación Industrial",
+    "date": "04/05/2025",
     "time": "18:00"
   },
   {
-    "subject": "Instalaciones Eléctricas",
-    "date": "03/12/2025",
+    "subject": "Administración de Operaciones",
+    "date": "04/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Metalurgia Física (TEC)",
+    "date": "04/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Máquinas Eléctricas  (TEC)",
+    "date": "04/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Señales y Sistemas",
+    "date": "05/05/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Elementos de Mecánica de los Fluidos",
+    "date": "05/05/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Gestión de los RRHH en la Prod. De Bienes y Serv.",
+    "date": "05/05/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Física 1",
+    "date": "05/05/2025",
+    "time": "13:00"
+  },
+  {
+    "subject": "Tecnologías de Redes y Servicios de Telecom.",
+    "date": "05/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Gestión de Calidad",
+    "date": "05/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Matemática Discreta 2",
+    "date": "05/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Control de Calidad (TEC)",
+    "date": "05/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Mecánica Newtoniana",
+    "date": "06/05/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Física 2",
+    "date": "06/05/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Introducción a la Mecánica de Suelos",
+    "date": "06/05/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Transferencia de Calor y Masa 2",
+    "date": "06/05/2025",
+    "time": "08:00"
+  },
+  {
+    "subject": "Fundamentos de la Combinatoria",
+    "date": "06/05/2025",
+    "time": "13:00"
+  },
+  {
+    "subject": "Redes Eléctricas",
+    "date": "06/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Electrónica Avanzada 2",
+    "date": "06/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Máquinas para Fluidos I",
+    "date": "06/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Termodinámica Aplicada a la Ing. de Procesos",
+    "date": "06/05/2025",
+    "time": "18:00"
+  },
+  {
+    "subject": "Diseño de Procesos  Químicos",
+    "date": "06/05/2025",
     "time": "18:00"
   },
   {
     "subject": "Matemática 1 (TEC)",
-    "date": "03/12/2025",
+    "date": "06/05/2025",
     "time": "18:00"
   },
   {
-    "subject": "Matemática 2 (TEC)",
-    "date": "03/12/2025",
+    "subject": "Máquinas para Fluidos (TEC)",
+    "date": "06/05/2025",
     "time": "18:00"
   },
   {
-    "subject": "Motores de Comb. Int. y Turbinas de Gas (TEC)",
-    "date": "03/12/2025",
-    "time": "18:00"
+    "subject": "Funciones de Variable Compleja",
+    "date": "09/05/2025",
+    "time": "09:00"
   },
   {
-    "subject": "Física 3",
-    "date": "04/12/2025",
-    "time": "08:00"
-  },
-  {
-    "subject": "Vibraciones y Ondas",
-    "date": "04/12/2025",
-    "time": "13:00"
-  },
-  {
-    "subject": "Tecnologías y Servicios Industriales 2",
-    "date": "04/12/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Refrigeración",
-    "date": "04/12/2025",
-    "time": "18:00"
-  },
-  {
-    "subject": "Sistemas y Control",
-    "date": "04/12/2025",
-    "time": "18:00"
+    "subject": "Administración General para Ingenieros",
+    "date": "09/05/2025",
+    "time": "09:00"
   },
   {
     "subject": "Unidades curriculares del calendario perpetuo",
-    "date": "04/12/2025",
-    "time": "18:00"
+    "date": "09/05/2025",
+    "time": "09:00"
   },
   {
     "subject": "Unidades curriculares no incluidas en el calendario perpetuo",
-    "date": "04/12/2025",
-    "time": "18:00"
+    "date": "09/05/2025",
+    "time": "09:00"
   }
 ]

@@ -16,7 +16,7 @@ function parseFormatA(text) {
     let m;
 
     if ((m = line.match(/Día \d+ – \S+ (\d{2}\/\d{2})/))) {
-      currentDate = m[1] + "/2025";
+      currentDate = m[1] + "/" + new Date().getFullYear(); // Add current year
       continue;
     }
 

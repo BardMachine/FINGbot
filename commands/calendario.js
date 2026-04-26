@@ -35,6 +35,8 @@ module.exports = async (message) => {
 
     // Collect all parciales for user's subjects
     for (const codigo of userMaterias) {
+        console.log(`Checking parciales for materia: ${codigo}`);
+        if(!materias[codigo]) continue;  // Skip if the code is not in materias.json
         const materia = materias[codigo][0] || codigo;
         const parciales = fechasParciales.filter(p => 
             p.subject.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase() === materia ||
@@ -62,19 +64,31 @@ module.exports = async (message) => {
 
     // Format the calendar
     const today = new Date();
-    const calendarLines = ["## 📅 Calendario de Parciales\n"];
-    
-    for (const parcial of userParciales) {
-        const dateStr = formatDate(parcial.date);
-        const timeStr = parcial.time.substring(0, 5);  // HH:mm format
+    const grouped = {};
+
+for (const parcial of userParciales) {
+    const key = parcial.date.toDateString();
+    if (!grouped[key]) grouped[key] = [];
+    grouped[key].push(parcial);
+}
+
+const calendarLines = [`## 📅 Calendario de Parciales (${today.toLocaleDateString('es-UY')})\n`];
+
+for (const key of Object.keys(grouped)) {
+    const date = new Date(key);
+    calendarLines.push(`\n**${formatDate(date)}**`);
+
+    for (const parcial of grouped[key]) {
+        const timeStr = parcial.time.substring(0, 5);
         const isPast = parcial.date < today;
-        
-        const line = isPast ? 
-            `~~${dateStr} ${timeStr} - **${parcial.codigo}**~~` :
-            `${dateStr} ${timeStr} - **${parcial.codigo}**`;
-            
+
+        const line = isPast
+            ? `~~${timeStr} ${parcial.codigo}~~`
+            : `${timeStr} ${parcial.codigo}`;
+
         calendarLines.push(line);
     }
+}
 
     message.reply(calendarLines.join('\n'));
 };
